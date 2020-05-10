@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.show_case {
+    max-width: 80%;
+    margin: 5% 10%;
+}
+
+/* Começo do texto */
+
+.text {
+    width: 35%;
+    text-align: justify;
+    margin-left: 15%;
+}
+
+.show_case .text h1 {
+    margin: 0;
+    float: left;
+    font-size: 270%;
+    font-family: sans-serif;
+}
+
+.show_case .text p {
+    margin: 0;
+    float: left;
+    margin-top: 30px;
+    font-size: 130%;
+    font-family: sans-serif;
+    background: #afc26bad;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Fim do texto */
+
+/* Começo das imagens */
+
+#div_diamond { /*/ Estilização do diamante /*/
+    background: #42c5e6;
+    width: 350px;
+    height: 350px;
+    float: right;
+    border-radius: 25px;
+    transition-duration: 200ms;
+    transform: rotate(45deg);
+    margin-right: 20%
+}
+
+#div_diamond:hover /*/ Rotação do diamante /*/ {
+    background: #afc26b;
+    border-radius: 100px;
+    transform: rotate(60deg);
+    transition-duration: 500ms;
+    
+}
+
+#img_hospital {
+    height: 180px;
+    width: 330px;
+    float: right;
+    margin: 170px 180px;
+    border-radius: 15px;
+}
