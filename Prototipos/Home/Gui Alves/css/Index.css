@@ -1,38 +1,96 @@
-<<<<<<< HEAD
 * {
     padding: 0;
     margin: 0;
 }
 
-.show_case {
-    max-width: 80%;
-    margin: 5% 10%;
+/* Começo do parallax */
+
+.box1 {
+    margin-top: 5%;
+    height: 50vh;
+    width: 80%;
+    background-image: url(../img/foto.jpg);
+    background-size: cover;
+    display: table;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    border-radius: 50px;
 }
+
+#logo {
+    margin-top: 50px;
+}
+
+.text1{
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text1 3s 1;
+    font-size: 400%;
+    color: #0e283a;
+    margin: 0;
+}
+
+.text2 {
+    font-size: 230%;
+    font-family: sans-serif; 
+    color: #0e283a;
+}               
+
+@keyframes text1 {
+    0%{
+        margin-bottom: -40px;
+    }
+    30%{
+        color:white;
+        letter-spacing: 30px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px; 
+    }
+}
+
+/* Fim do parallax */
+
 
 /* Começo do texto */
 
+.show_case {
+    max-width: 80%;
+    margin: 10% auto;
+    margin-bottom: 500px;
+    
+}
+
 .text {
-    width: 35%;
+    width: 45%;
     text-align: justify;
-    margin-left: 15%;
+    margin: auto 5%;
+    float: right;
+}
+
+.show_case .text p {
+    margin: 0;
+    float: right;
+    margin-top: 30px;
+    font-size: 130%;
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    background: #f5f5f5;
+    box-shadow: 0 5px 15px -5px #00000070;
 }
 
 .show_case .text h1 {
     margin: 0;
     float: left;
-    font-size: 270%;
+    font-size: 250%;
     font-family: sans-serif;
-}
-
-.show_case .text p {
-    margin: 0;
-    float: left;
-    margin-top: 30px;
-    font-size: 130%;
-    font-family: sans-serif;
-    background: #afc26bad;
     border-radius: 10px;
     padding: 10px;
+    color: #4ab0a6;
 }
 
 /* Fim do texto */
@@ -40,95 +98,39 @@
 /* Começo das imagens */
 
 #div_diamond { /*/ Estilização do diamante /*/
-    background: #42c5e6;
+    background: #ff6e71;
     width: 350px;
     height: 350px;
-    float: right;
+    float: left;
     border-radius: 25px;
-    transition-duration: 200ms;
     transform: rotate(45deg);
-    margin-right: 20%
-}
-
-#div_diamond:hover /*/ Rotação do diamante /*/ {
-    background: #afc26b;
-    border-radius: 100px;
-    transform: rotate(60deg);
-    transition-duration: 500ms;
-    
-}
-
-#img_hospital {
-    height: 180px;
-    width: 330px;
-    float: right;
-    margin: 170px 180px;
-    border-radius: 15px;
-=======
-* {
-    padding: 0;
-    margin: 0;
-}
-
-.show_case {
-    max-width: 80%;
     margin: 5% 10%;
+    text-align: center;
+    box-shadow: 10px 10px 30px -5px #000000bd;
 }
 
-/* Começo do texto */
-
-.text {
-    width: 35%;
-    text-align: justify;
-    margin-left: 15%;
+#div_diamond h1 { /*/ Estilização do diamante /*/
+    transform: rotate(-45deg);
+    margin: 150px auto;
+    font-family: monospace;
+    font-size: 400%;
+    color: whitesmoke;
+    text-shadow: 2px 2px #af4b4d;
 }
 
-.show_case .text h1 {
-    margin: 0;
-    float: left;
-    font-size: 270%;
-    font-family: sans-serif;
-}
-
-.show_case .text p {
-    margin: 0;
-    float: left;
-    margin-top: 30px;
-    font-size: 130%;
-    font-family: sans-serif;
-    background: #afc26bad;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-/* Fim do texto */
-
-/* Começo das imagens */
-
-#div_diamond { /*/ Estilização do diamante /*/
-    background: #42c5e6;
-    width: 350px;
-    height: 350px;
-    float: right;
-    border-radius: 25px;
-    transition-duration: 200ms;
-    transform: rotate(45deg);
-    margin-right: 20%
+#div_diamond:hover h1 { /*/ Estilização do diamante /*/
+    transform: rotate(300deg);
+    transition-duration: 500ms;
+    margin: 150px auto;
+    font-family: monospace;
+    font-size: 400%;
+    color: whitesmoke;
+    text-shadow: 2px 2px #b88750;
 }
 
 #div_diamond:hover /*/ Rotação do diamante /*/ {
-    background: #afc26b;
+    background: #ffbc6f;
     border-radius: 100px;
     transform: rotate(60deg);
     transition-duration: 500ms;
-    
-}
-
-#img_hospital {
-    height: 180px;
-    width: 330px;
-    float: right;
-    margin: 170px 180px;
-    border-radius: 15px;
->>>>>>> 60fba69e29f85a3296d1fd239b41a215797d9bc7
 }
