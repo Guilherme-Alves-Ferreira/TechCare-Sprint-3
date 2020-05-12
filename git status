@@ -1,0 +1,130 @@
+[33mcommit 1dfdc3491529f4c7301f365f9e3d136d597c0048[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: rafael-rochaalmeida <61557103+rafael-rochaalmeida@users.noreply.github.com>
+Date:   Tue May 12 11:19:14 2020 -0300
+
+    Pagina home do site
+
+[33mcommit 6aec6b3ded3e82de67d051711eacb1b6aeef6568[m
+Author: unknown <douglas.nova@bandtec.com.br>
+Date:   Tue May 12 02:14:45 2020 -0300
+
+    Foi criado o menu do site
+
+[33mcommit 0204d683980d4e3d7c925d12cd242fe2428d868e[m
+Merge: 7df4bb8 6de2c50
+Author: unknown <douglas.nova@bandtec.com.br>
+Date:   Mon May 11 14:02:35 2020 -0300
+
+    Merge branch 'master' of https://github.com/DouglasNova/TechCare-Sprint-3
+
+[33mcommit 7df4bb80c5203ef9a1e00b17271c76f9cef37625[m
+Author: unknown <douglas.nova@bandtec.com.br>
+Date:   Mon May 11 14:01:51 2020 -0300
+
+    adicionando as pastas e arquivos do site
+
+[33mcommit 6de2c50b9f540b7d67628e13253170771c3fbb78[m
+Author: Guilherme-Alves-Ferreira <guilherme.ferreira@bandtec.com.br>
+Date:   Mon May 11 13:41:52 2020 -0300
+
+    Subindo minha home
+
+[33mcommit bfd7aef92562e5a748ad2a14dfa5fd0ba9ae777a[m
+Author: Guilherme-Alves-Ferreira <guilherme.ferreira@bandtec.com.br>
+Date:   Mon May 11 13:38:56 2020 -0300
+
+    Deletando minha home
+
+[33mcommit 4d32faefe9dd9d2369b1342c29826ca596f86393[m
+Merge: bb80213 605cdfa
+Author: Guilherme-Alves-Ferreira <guilherme.ferreira@bandtec.com.br>
+Date:   Mon May 11 13:13:25 2020 -0300
+
+    Merge branch 'master' of https://github.com/DouglasNova/TechCare-Sprint-3
+
+[33mcommit bb80213ffcc3ccc7833e5716aee64802349f6994[m
+Author: Guilherme-Alves-Ferreira <guilherme.ferreira@bandtec.com.br>
+Date:   Mon May 11 13:13:11 2020 -0300
+
+    Finalização da home
+
+[33mcommit 605cdfad7635cecc8ff267718e3bb0edaf81d920[m
+Author: unknown <douglas.nova@bandtec.com.br>
+Date:   Mon May 11 13:07:29 2020 -0300
+
+    Adicionando o meu protótipo
+
+[33mcommit 7f378ef77af7e678c912b54af70fd23085c87570[m
+Author: rafael-rochaalmeida <rafael.almeida@bandtec.com.br>
+Date:   Mon May 11 10:05:42 2020 -0300
+
+    Prototipo da Home
+
+[33mcommit 629abb565de6695779476f23ec1c20354fb07d47[m
+Author: Guilherme-Alves-Ferreira <guilherme.ferreira@bandtec.com.br>
+Date:   Mon May 11 04:53:14 2020 -0300
+
+    Finalização do protótipo da home
+
+[33mcommit fed26d155f9a952f82d92e396b89e2ac43972463[m
+Author: guigb9 <guilherme>
+Date:   Mon May 11 03:10:07 2020 -0300
+
+    estou subindo o meu protótipo de home
+
+[33mcommit 5d513a8bf622b2a4eace9079e1c5c424018eaadd[m
+Author: Guilherme Alves Ferreira <61557530+Guilherme-Alves-Ferreira@users.noreply.github.com>
+Date:   Sun May 10 18:56:50 2020 -0300
+
+    Delete teste.txt
+
+[33mcommit e1792eee7a251aafa13d1190ad76c40ad76d0532[m
+Merge: c22916c 60fba69
+Author: Guilherme-Alves-Ferreira <guilherme.ferreira@bandtec.com.br>
+Date:   Sun May 10 18:56:19 2020 -0300
+
+    teste
+
+[33mcommit c22916c46916c31a0f6c4dd3e47b63a97cf39240[m
+Author: Guilherme-Alves-Ferreira <guilherme.ferreira@bandtec.com.br>
+Date:   Sun May 10 18:55:42 2020 -0300
+
+    teste
+
+[33mcommit b157b22f7f53b9eac8a2a16e8e2a0903d2102b4c[m
+Author: Guilherme-Alves-Ferreira <guilherme.ferreira@bandtec.com.br>
+Date:   Sun May 10 18:52:57 2020 -0300
+
+    teste
+
+[33mcommit 60fba69e29f85a3296d1fd239b41a215797d9bc7[m
+Author: Guilherme Alves Ferreira <61557530+Guilherme-Alves-Ferreira@users.noreply.github.com>
+Date:   Sun May 10 18:49:25 2020 -0300
+
+    Add files via upload
+    
+    Home
+
+[33mcommit 2ea518cb40ec7b7c64530e4e969ec181daa41c3b[m
+Author: LucasToscani179 <lucas.doliveira@bandtec.com.br>
+Date:   Sun May 10 18:17:31 2020 -0300
+
+    LOGOS
+
+[33mcommit e44fb36f84a4688221a0edd40a44a0ab59f12a9e[m
+Author: unknown <douglas.nova@bandtec.com.br>
+Date:   Sun May 10 18:03:55 2020 -0300
+
+    mudei o nome para lucas
+
+[33mcommit afe5b29ad481db8c4837bffd084a12b42b2369f1[m
+Author: unknown <douglas.nova@bandtec.com.br>
+Date:   Sun May 10 14:18:56 2020 -0300
+
+    Adicionando os protótipos da home do lucas
+
+[33mcommit cffcbdeaf324e4577eb8d0323424b68b2d004da6[m
+Author: DouglasNova <61556868+DouglasNova@users.noreply.github.com>
+Date:   Sun May 10 14:10:00 2020 -0300
+
+    Initial commit
