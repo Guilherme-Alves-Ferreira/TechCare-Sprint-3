@@ -2,16 +2,12 @@ html,
 body {
     margin: 0;
 }
-<<<<<<< HEAD
+
 body{
-    background: #f5f5f5;
-    font-family: sans-serif
-=======
-body {
     background: #f4f4f4;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
->>>>>>> f8e948f956182080bfb8c976e0b7e491e330a2aa
+    font-family: sans-serif
 }
+
 .container {
     width: 80%;
     margin: 0 auto;
