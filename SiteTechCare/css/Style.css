@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+}
+body{
+    background: #4f4f4f;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+a{
+    color: #101010;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.header{
+    position: absolute;
+    height: 77px;
+    width: 100%;
+    font-size: large;
+}
+.header .logo{
+    float: left;
+    position: absolute;
+    top: -35px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.header li{
+    float: right;
+    display: inline;
+    padding: 28px;
+}
+.clear{
+    clear: both;
+}
+.active{
+    font-weight: bold;
+}
