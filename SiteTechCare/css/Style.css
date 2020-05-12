@@ -1,43 +1,45 @@
-html, body{
+html,
+body {
     margin: 0;
 }
-body{
-    background: #4f4f4f;
+body {
+    background: #f4f4f4;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-.header a{
-    color: #101010;
-}
-.header a:hover{
-    color: #40E495;
-}
-.container{
+.container {
     width: 80%;
     margin: 0 auto;
 }
-.header{
+.header {
     position: absolute;
     height: 77px;
     width: 100%;
     font-size: large;
+
 }
-.header .logo{
+.header a {
+    color: #101010;
+}
+.header a:hover {
+    color: #40E495;
+}
+.header .logo {
     float: left;
     position: absolute;
     top: -35px;
 }
-ul{
+ul {
     margin: 0;
     padding: 0;
 }
-.header li{
+.header li {
     float: right;
     display: inline;
     padding: 28px 20px 0 0;
 }
-.clear{
+.clear {
     clear: both;
 }
-.active{
+.active {
     font-weight: bold;
 }
