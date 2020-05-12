@@ -5,8 +5,11 @@ body{
     background: #4f4f4f;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-a{
+.header a{
     color: #101010;
+}
+.header a:hover{
+    color: #40E495;
 }
 .container{
     width: 80%;
