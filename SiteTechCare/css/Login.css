@@ -7,9 +7,7 @@ body{
     background-repeat: no-repeat;
     
 }
-.header{
-    margin-block-start: 500px;
-}
+
 .box{
     width: 300px;
     padding: 40px;
@@ -119,7 +117,7 @@ body{
 }
 
 .footer{
-    margin-top: 500px;
+    
 }
 
 
