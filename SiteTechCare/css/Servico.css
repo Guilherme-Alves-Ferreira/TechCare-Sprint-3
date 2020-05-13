@@ -61,33 +61,77 @@ body{
 
 .card1{
 background-color: royalblue;
-width:200px;
-height: 400px;
+width:300px;
+height: 300px;
 border-radius: 20px;
-margin-left: 20%;
+margin-left: 10%;
 color: white;
+text-align: center;
+margin-top: 20px;
 }
 
 .card1 p{
-    text-align: center;
-    margin-top:60%;
+    /* text-align: center; */
+    margin-top:20%;
 }
 
 
-.img-ser1 img{
-  height: 300px;
-  border-radius: 30px;
-  padding-top: 8%;
-  padding-left: 13%; 
-
+.card2 img{
+  height: 200px;
+  
 }
 
-.img-ser1{
+.card2{
     background-color: royalblue;
     border-radius: 15px;
-    /* padding-left: 20%; */
     width: 600px;
-    margin-left: 10%;
+    margin-left: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    transition: all 400ms ease;
+    cursor: pointer;
+    transform-style: preserve-3d;
 
+    
+}
+
+.card2:after{
+    top:-100%;
+    position: absolute;
+    box-sizing: border-box;
+    content: '';
+    transform-origin: left bottom;
+    transform: rotate(90deg);
+    transform-style: preserve-3d;
+    transform: rotateX(90deg); 
+
+}
+
+.card2:hover{
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+
+
+}
+
+.btn-info{
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all 400ms ease;
+    background-color: darkorchid;
+    padding: 20px;
+    margin-top: 5%;
+
+}
+
+.btn-info:hover{
+    background: rgba(0,0,0,0);
+    color:  darkorchid;
+    box-shadow: inset 0 0 0 3px darkorchid;
 }
 
