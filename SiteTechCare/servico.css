@@ -1,0 +1,46 @@
+ /* Pagina Serviços do Projeto  */
+
+
+body{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header{
+    background-color: rgb(113, 89, 193);
+    height: 100px;
+    width: 100%;
+    margin:0;
+}
+
+.header .nav ul li{
+    display: inline-block;
+}
+
+
+.header a{
+text-decoration: none;
+color: white;
+}
+
+.header .nav {
+    float: right;
+    font-size: 20px;
+    padding-right: 200px;
+    padding-top: 25px;
+}
+
+.nav li{
+
+padding-left: 20px;
+
+
+}
+
+a{
+    di
+}
+
+
