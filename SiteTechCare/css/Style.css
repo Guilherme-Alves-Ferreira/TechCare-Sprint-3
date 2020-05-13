@@ -45,3 +45,19 @@ ul {
 .active {
     font-weight: bold;
 }
+.footer{
+    background: #25AAE1;
+}
+.logoFooter{
+    float: left;
+}
+.navFooter{
+    float: left;
+}
+.newslatter{
+    float: right;
+
+}
+.newslatter li {
+    display: inline;
+}
