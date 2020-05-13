@@ -4,33 +4,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <link rel="stylesheet" href="../css/Login.css ">
-=======
-    <link rel="stylesheet" href="../css/login.css ">
->>>>>>> 7667c5400abc44ba790602d717ca230c875230e7
+    <link rel="stylesheet" href="../css/Style.css ">
     <title>Login</title>
 </head>
 
 <body>
-<div id="div_inicio">
-    <form id="login" class="box" action="" method="post">
-        <h1>Login</h1>
-        <input type="text" name="" placeholder="Email">
-        <input type="password" name="" placeholder="Senha">
-        <input href="" type="submit" name="" value="Login">
-        <a onclick="senha()" href="esqueci_senha.html">Esqueci minha senha</a>
-    </form>
-</div>
+    <div id="div_inicio">
+        <form id="login" class="box" action="" method="post">
+            <h1>Login</h1>
+            <input type="text" name="" placeholder="Email">
+            <input type="password" name="" placeholder="Senha">
+            <input href="" type="submit" name="" value="Login">
+            <a onclick="senha()" href="esqueci_senha.html">Esqueci minha senha</a>
+        </form>
+    </div>
 
-    
+
+    <div class="footer">
+        <div class="container">
+            <div class="logoFooter">
+                <a href=""><img src="../css/img/logo.png" alt="Logo" width="150"></a>
+            </div>
+            <div class="navFooter">
+                <ul>
+                    <li><a href=""> entre em contato</a></li>
+                </ul>
+            </div>
+            <div class="newslatter">
+                assine nossa newslatter <br>
+
+                <form action="">
+
+                    <input type="email" name="" id="">
+                    <button>assinar</button>
+                </form>
+                <br>
+                <ul>
+                    <li>redes sociais</li>
+                </ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
 
 
 </body>
 
 </html>
 <script>
-    function senha(){
+    function senha() {
         div_esqueci.style.display = 'block';
         div_inicio.style.display = 'none';
     }
