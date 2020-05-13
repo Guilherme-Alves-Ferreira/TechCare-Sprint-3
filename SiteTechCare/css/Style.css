@@ -4,7 +4,6 @@ body {
 }
 
 body{
-    background: #f4f4f4;
     font-family: sans-serif
 }
 
@@ -49,16 +48,29 @@ ul {
 }
 .footer{
     background: #25AAE1;
+    color: #f4f4f4;
+}
+.footer a{
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    
 }
 .logoFooter{
     float: left;
 }
 .navFooter{
     float: left;
+    padding: 68px 0 0 60px;
+
+}
+.navFooter li{
+    list-style: none;
 }
 .newslatter{
     float: right;
-
+    padding: 39px 20px 0 0;
+    
 }
 .newslatter li {
     display: inline;

@@ -1,48 +1,14 @@
+<<<<<<< HEAD
 html, body{
     margin: 0;
     overflow: visible;
 }
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: url(img/bgq2.jpg);
     background-size: cover;
 }
-.header a{
-    color: #101010;
-}
-.header a:hover{
-    color: #40E495;
-}
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
-.header{
-    position: absolute;
-    height: 77px;
-    width: 100%;
-    font-size: large;
-}
-.header .logo{
-    float: left;
-    position: absolute;
-    top: -35px;
-}
-ul{
-    margin: 0;
-    padding: 0;
-}
-.header li{
-    float: right;
-    display: inline;
-    padding: 28px 20px 0 0;
-}
-.clear{
-    clear: both;
-}
-.active{
-    font-weight: bold;
-}
+=======
+>>>>>>> 7667c5400abc44ba790602d717ca230c875230e7
 .space{
     width: 100%;
     height: 77px;
@@ -218,7 +184,7 @@ form b{
     background-color: rgba(0, 0, 0, 0.8);
 }
 .env{
-    color: black;
+    color: midnightblue;
 }
 .env:hover{
     color: #40E495;
