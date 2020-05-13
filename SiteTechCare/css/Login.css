@@ -7,6 +7,9 @@ body{
     background-repeat: no-repeat;
     
 }
+.header{
+    margin-block-start: 500px;
+}
 .box{
     width: 300px;
     padding: 40px;
@@ -113,6 +116,10 @@ body{
     color: #ffffff;
     text-transform: uppercase;
     font-weight: 500;
+}
+
+.footer{
+    margin-top: 500px;
 }
 
 
