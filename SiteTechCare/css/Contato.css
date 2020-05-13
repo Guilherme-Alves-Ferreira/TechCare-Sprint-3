@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body{
     margin: 0;
     overflow: visible;
@@ -6,6 +7,8 @@ body{
     background: url(img/bgq2.jpg);
     background-size: cover;
 }
+=======
+>>>>>>> 7667c5400abc44ba790602d717ca230c875230e7
 .space{
     width: 100%;
     height: 77px;
