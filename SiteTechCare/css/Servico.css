@@ -14,33 +14,34 @@ border-radius: 20px;
 margin-left: 10%;
 color: white;
 text-align: center;
-margin-top: 20px;
+margin-top: 5px;
 }
 
 .card1 p{
     /* text-align: center; */
     margin-top:20%;
+    font-size: 1em;
 }
 
 
 .card2 img{
-  height: 200px;
-  
+  height: 20vh;
 }
 
 .card2{
     background-color: royalblue;
     border-radius: 15px;
-    width: 600px;
+    width: 30vw;
+    max-width: 30vw;
+    height: 36vh;
+    min-height: 36vh;
     margin-left: 20%;
     text-align: center;
     text-transform: uppercase;
     color: white;
     transition: all 400ms ease;
     cursor: pointer;
-    transform-style: preserve-3d;
-
-    
+    transform-style: preserve-3d;   
 }
 
 .card2:after{
