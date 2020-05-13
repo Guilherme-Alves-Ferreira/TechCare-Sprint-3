@@ -1,10 +1,12 @@
 html, body{
     margin: 0;
-    overflow: visible;
+    width: 100%;
+    overflow: hidden;
 }
 body{
     background: url(img/bgq2.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .space{
     width: 100%;
