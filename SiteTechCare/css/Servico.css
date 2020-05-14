@@ -1,6 +1,26 @@
-/* INICIO show case  */
+/* INICIO box1  */
 
-.box1 p{
+/* ANIMAÇÃO CARD2 */
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+   40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+   }
+
+   80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+   }
+
+}
+/* ANIMAÇÃO CARD2 */
+
+
+.box p{
     margin: 0px;
     font:0px;
     font-size:1em;
@@ -9,18 +29,18 @@
 }
 
 
-.box1 h1{
+.box h1{
     margin: 0px;
     padding-top: 2%;
 
 }
 
-.box1 button{
+.box button{
     margin: 0px;
 
 }
 
-.box1 h2{
+.box h2{
     margin: 0;
     padding-top: 8%;
 
@@ -29,7 +49,7 @@
 
 
 
-.box1{
+.box{
     display: flex;
     width: 100%;
     height: 30%;
@@ -38,22 +58,36 @@
 
 }
 
-.card1{
-background-color: royalblue;
+.box-card{
+    text-align: center;
+    width: 25vw;
+    height: 45vh;
+    margin-left: 5%;
+}
+
+.card{
+background-color: rgba(104, 125, 245, 0.945);
 width:20vw;
 height: 40vh;
 border-radius: 10%;
 margin-left: 10%;
 color: white;
 text-align: center;
+box-shadow: 15px 15px 15px -5px #00000070;
+
 }
 
-.card1 p{
+.card p{
     
     font-size: 1em;
     padding: 12% 0%;
 
 }
+
+.card:hover{
+    animation: bounce 1s;
+}
+
 
 
 
@@ -63,7 +97,7 @@ text-align: center;
 }
 
 .card2{
-    background-color: royalblue;
+    background: rgba(104, 125, 245, 0.945);
     border-radius: 10%;
     width: 30vw;
     max-width: 30vw;
@@ -71,23 +105,36 @@ text-align: center;
     min-height: 36vh;
     margin-left: 20%;
     text-align: center;
-    text-transform: uppercase;
     color: white;
     transition: all 500ms ease;
     cursor: pointer;
     transform-style: preserve-3d;   
     text-align: center;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 15px -5px #00000070;
+    position: relative;
 }
 
+
+
 .card2:after{
-    top:-100%;
+    top:100%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
     position: absolute;
     box-sizing: border-box;
-    content:;
+    background: rgba(113, 89, 193,0.7);
+    content:"Lorem ipsum dolor sit amet, consectetur. Veniam nulla quessir adipisci labore. Eius repudiandae adipisci voluptatibus saepemolestias aliquid nihil nisi assumenda!";
     transform-origin: left bottom;
     transform: rotate(90deg);
     transform-style: preserve-3d;
     transform: rotateX(90deg); 
+    border-radius: 10px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+
 
 }
 
@@ -98,7 +145,7 @@ text-align: center;
 
 }
 
-.box1 .btn-info{
+.box .btn-info{
     border: none;
     color: white;
     border-radius: 10px;
@@ -109,7 +156,7 @@ text-align: center;
     padding: 0;
     height: 5vh;
     width: 20vw;
-    margin-top: 25%;
+    margin-top: 10%;
     font-size: 1em;
 
     
@@ -123,21 +170,23 @@ text-align: center;
 }
 
 
+/* FIM da box1 */
 
-/* .card3{
-background-color: black;
-height: 20vh;
-width: 20vw;
-transition: all 500ms ease;
-cursor: pointer;
-transform-style: preserve-3d; 
+/* INICIO box2 */
 
+.box2{
+    background: rgb(113, 89, 193);
+    width: 100%;
+    height: 5vh;
+    padding-top: 50px;  
 }
 
-.card3:hover{
-    transform-origin: center bottom;
-    transform: rotateX(90deg) translateY(100%);
-} */
+
+
+
+/* FIM box2 */
+
+
 
 
 
