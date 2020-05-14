@@ -44,7 +44,7 @@ ul {
 }
 .footer{
     position: absolute;
-    background: #25AAE1;
+    background: #000010;
     color: #f4f4f4;
     bottom: 0;
     width: 100%;
@@ -75,15 +75,16 @@ ul {
     display: inline;
 }
 .text {
-    background: #47ccf3;
+    background: #25aae1;
     height: 25px;
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 .newslatter input {
     height: 25px;
     width: 250px;
     border:none;
     padding: 0;
-    background: #47ccf3;
+    background: #25aae1;
     font-size: 16px;
 }
 .newslatter input:hover{
@@ -117,5 +118,5 @@ ul {
 
 .btn-hover.color-1 {
     background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    
 }
