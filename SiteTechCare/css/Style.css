@@ -20,7 +20,7 @@ body{
     color: #101010;
 }
 .header a:hover {
-    color: #40E495;
+    color: #25aae1;
 }
 .header .logo {
     float: left;
@@ -44,7 +44,7 @@ ul {
 }
 .footer{
     position: absolute;
-    background: #000010;
+    background: #000025;
     color: #f4f4f4;
     bottom: 0;
     width: 100%;
@@ -89,6 +89,13 @@ ul {
 }
 .newslatter input:hover{
     border: none;
+}
+.newslatter img{
+    width: 30px;
+
+    -webkit-filter: drop-shadow(2px 3px 8px #31c4be);
+  filter: drop-shadow(2px 3px 8px #31c4be);
+
 }
 
 .btn-hover {
