@@ -1,8 +1,19 @@
-body{
+
+html, body {
+	height: 100%;
+	}
+
+.corpo {
+	min-height: 100%;
+}
+
+* html .corpo {
+	height: 100%; /* hack para IE6 que trata height como min-height */
+}
+ body{
     font-family: sans-serif;
     margin: 0;
 }
-
 .container {
     width: 80%;
     max-width: 1400px;
@@ -42,6 +53,12 @@ ul {
 .active {
     font-weight: bold;
 }
+.Conteudo {
+	padding-bottom: 170px;
+	}
+.corpo {
+	position: relative;
+}
 .footer{
     position: absolute;
     background: #000025;
@@ -76,11 +93,11 @@ ul {
 }
 .text {
     background: #25aae1;
-    height: 25px;
+    height: 30px;
     box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
 }
 .newslatter input {
-    height: 25px;
+    height: 30px;
     width: 250px;
     border:none;
     padding: 0;
@@ -104,7 +121,7 @@ ul {
     font-weight: 600;
     color: #fff;
     cursor: pointer;
-    height: 25px;
+    height: 30px;
     text-align:center;
     border: none;
     background-size: 300% 100%;
