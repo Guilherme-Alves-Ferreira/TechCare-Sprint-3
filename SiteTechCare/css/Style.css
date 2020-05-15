@@ -20,7 +20,7 @@ html, body {
 }
 @media only screen and (max-width: 950px) {
     .container {
-        width: 99%;
+        width: 100%;
 
     }
   }
@@ -46,11 +46,51 @@ ul {
     margin: 0;
     padding: 0;
 }
-.header li {
+.nav{
     float: right;
-    display: inline;
     padding: 28px 20px 0 0;
 }
+.nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+.nav span {
+    display: none;
+  }
+
+  @media only screen and (max-width: 950px) {
+    .nav a:not(:first-child) {display: none;}
+    .nav a span {
+        display: block;
+      }
+  }
+
+  @media only screen and (max-width: 950px) {
+    .nav.responsive {position: relative;}
+    .nav.responsive span {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .nav.responsive {
+        background: #fff;
+        float: none;
+      }
+      .nav.responsive a {
+        display: block;
+        text-align: left;
+      }
+      .header .nav.responsive a {
+        float: none;
+        display: block;
+        padding: 28px 20px 0 0;
+    }
+  }
+ 
+
+
+
+
 .clear {
     clear: both;
 }
