@@ -1,14 +1,29 @@
-body{
+
+html, body {
+	height: 100%;
+	}
+
+.corpo {
+	min-height: 100%;
+}
+
+* html .corpo {
+	height: 100%; /* hack para IE6 que trata height como min-height */
+}
+ body{
     font-family: sans-serif;
     margin: 0;
 }
-
 .container {
     width: 80%;
-    max-width: 1400px;
-    min-width: 700px;
     margin: 0 auto;
 }
+@media only screen and (max-width: 950px) {
+    .container {
+        width: 99%;
+
+    }
+  }
 .header {
     position: absolute;
     height: 77px;
@@ -20,7 +35,7 @@ body{
     color: #101010;
 }
 .header a:hover {
-    color: #40E495;
+    color: #25aae1;
 }
 .header .logo {
     float: left;
@@ -41,6 +56,18 @@ ul {
 }
 .active {
     font-weight: bold;
+}
+.Conteudo {
+	padding-bottom: 170px;
+}
+ @media only screen and (max-width: 725px) {
+    .Conteudo  {
+        padding-bottom: 260px;
+    
+    }
+}
+.corpo {
+	position: relative;
 }
 .footer{
     position: absolute;
@@ -113,7 +140,7 @@ ul {
 
 .btn-hover:hover {
     background-position: 100% 0;
-    -moz-transition: all .4s ease-in-out;
+    moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
