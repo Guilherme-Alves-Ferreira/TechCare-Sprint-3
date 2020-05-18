@@ -19,17 +19,13 @@ html, body {
     margin: 0 auto;
 }
 @media only screen and (max-width: 950px) {
-    .container {
-        width: 100%;
-
-    }
+    .container {width: 100%;}
   }
 .header {
     position: absolute;
     height: 77px;
     width: 100%;
     font-size: large;
-
 }
 .header a {
     color: #101010;
@@ -38,9 +34,9 @@ html, body {
     color: #25aae1;
 }
 .header .logo {
-    float: left;
     position: absolute;
     top: -35px;
+    float: left;
 }
 ul {
     margin: 0;
@@ -50,49 +46,43 @@ ul {
     float: right;
     padding: 28px 20px 0 0;
 }
+.nav i{
+    font-size: 35px;
+}
 .nav a{
     padding: 10px;
     text-decoration: none;
 }
-.nav span {
+.nav a.icon {
     display: none;
-  }
-
-  @media only screen and (max-width: 950px) {
+}
+@media only screen and (max-width: 950px) {
+    .nav{padding: 10px;}
     .nav a:not(:first-child) {display: none;}
-    .nav a span {
-        display: block;
-      }
-  }
-
-  @media only screen and (max-width: 950px) {
-    .nav.responsive {position: relative;}
-    .nav.responsive span {
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-      .nav.responsive {
-        background: #fff;
-        float: none;
-      }
-      .nav.responsive a {
-        display: block;
-        text-align: left;
-      }
-      .header .nav.responsive a {
-        float: none;
-        display: block;
-        padding: 28px 20px 0 0;
+    .nav a.icon { display: block;}
+}
+@media only screen and (max-width: 950px) {
+    .nav.responsive {
+        position: relative;
+        padding: 56px 0 0 0;
     }
-  }
- 
-
-
-
-
-.clear {
-    clear: both;
+    .nav.responsive a.icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .nav.responsive {
+        background: #000025;
+        float: none;
+    }
+    .nav.responsive a {
+        color: #fff;
+        display: block; 
+        text-align: left; 
+    }
+    .nav.responsive a:active{
+        background: #25aae1;
+    }
 }
 .active {
     font-weight: bold;
@@ -100,35 +90,42 @@ ul {
 .Conteudo {
 	padding-bottom: 170px;
 }
- @media only screen and (max-width: 725px) {
-    .Conteudo  {
-        padding-bottom: 260px;
-    
-    }
+ @media only screen and (max-width: 600px) {
+    .Conteudo  {padding-bottom: 270px;}
 }
 .corpo {
 	position: relative;
 }
 .footer{
-    position: absolute;
     background: #000025;
     color: #f4f4f4;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
 .footer a{
     color: #f4f4f4;
     text-decoration: none;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
 .logoFooter{
     float: left;
 }
 .navFooter{
     float: left;
-    padding: 68px 0 0 60px;
+    padding: 57px 0 0 60px;
 
+}
+@media only screen and (max-width: 950px) {
+    .navFooter{
+        padding: 57px 0 0 0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .navFooter{
+
+        padding: 57px 0 0 0;
+    }
 }
 .navFooter li{
     list-style: none;
@@ -136,23 +133,43 @@ ul {
 .newslatter{
     float: right;
     padding: 39px 20px 0 0;
-    
+}
+@media only screen and (max-width: 950px) {
+    .newslatter{
+        padding: 39px  5px 0 0;  
+    }
+}
+@media only screen and (max-width: 600px) {
+    .newslatter{
+        width: 285px;
+        float: none;
+        margin: 0 auto;
+        padding: 0 0 5px 7px;  
+        clear: both;
+    }
 }
 .newslatter li {
     display: inline;
 }
 .text {
     background: #25aae1;
+    width: 355px;
     height: 30px;
-    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);  
+}
+@media only screen and (max-width: 700px) {
+    .text { width: 285px; }
 }
 .newslatter input {
-    height: 30px;
-    width: 250px;
-    border:none;
-    padding: 0;
     background: #25aae1;
+    width: 250px;
+    height: 30px;
+    padding: 0;
+    border:none;
     font-size: 16px;
+}
+@media only screen and (max-width: 700px) {
+    .newslatter input { width: 180px; }
 }
 .newslatter input:hover{
     border: none;
@@ -161,23 +178,21 @@ ul {
     width: 30px;
 
     -webkit-filter: drop-shadow(2px 3px 8px #31c4be);
-  filter: drop-shadow(2px 3px 8px #31c4be);
+    filter: drop-shadow(2px 3px 8px #31c4be);
 
 }
-
 .btn-hover {
-    width: 100px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    height: 30px;
-    text-align:center;
-    border: none;
     background-size: 300% 100%;
+    color: #fff;
+    width: 100px;
+    height: 30px;
     padding: 0;
+    border: none;
+    text-align:center;
+    font-size: 16px;
+    font-weight: 600; 
+    cursor: pointer;   
 }
-
 .btn-hover:hover {
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
@@ -185,12 +200,12 @@ ul {
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
-
 .btn-hover:focus {
     outline: none;
 }
-
 .btn-hover.color-1 {
-    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
-    
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673); 
+}
+.clear {
+    clear: both;
 }
