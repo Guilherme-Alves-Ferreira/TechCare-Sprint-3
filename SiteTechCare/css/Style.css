@@ -26,6 +26,7 @@ html, body {
     height: 77px;
     width: 100%;
     font-size: large;
+    z-index: 999999999999;
 }
 .header a {
     color: #101010;
@@ -45,6 +46,7 @@ ul {
 .nav{
     float: right;
     padding: 28px 20px 0 0;
+    z-index: 999999999999;
 }
 .nav i{
     font-size: 35px;
@@ -181,7 +183,7 @@ ul {
     filter: drop-shadow(2px 3px 8px #31c4be);
 
 }
-.btn-hover {
+.text .btn-hover {
     background-size: 300% 100%;
     color: #fff;
     width: 100px;
@@ -193,7 +195,7 @@ ul {
     font-weight: 600; 
     cursor: pointer;   
 }
-.btn-hover:hover {
+.text .btn-hover:hover {
     background-position: 100% 0;
     moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
@@ -203,7 +205,7 @@ ul {
 .btn-hover:focus {
     outline: none;
 }
-.btn-hover.color-1 {
+.text  .btn-hover.color-1 {
     background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673); 
 }
 .clear {

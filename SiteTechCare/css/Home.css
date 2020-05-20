@@ -1,0 +1,38 @@
+.item{
+    position: relative;
+}
+.item .img img{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    line-height: 0;
+
+}
+.img::before {
+    content: "";
+    display: block;
+    padding-top: 54%;
+    overflow: hidden;
+  }
+.sobre{
+
+
+
+    
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 10%;
+    bottom: 0;
+    opacity: 1;
+    text-align: center;
+    z-index: 1;
+    width: 30%;
+    height: 150px;
+}
+body{
+    background: #000;
+}

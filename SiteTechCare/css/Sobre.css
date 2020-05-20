@@ -10,7 +10,7 @@ body{
 }
 
 .showcase {
-    margin-top: 20vh;
+    padding-top: 20vh;
     height: 60vh;
     width: 100%;
     min-width: 60%;
