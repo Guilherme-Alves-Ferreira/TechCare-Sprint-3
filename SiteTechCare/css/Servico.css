@@ -18,28 +18,18 @@
 
 
 
-body ul li{
+body, h1, p{
     margin: 0;
     padding: 0;
 }
 
 
-li{
-    list-style: none;
-}
-
-
-
-.nav-card ul{
-   display: flex; 
-   margin-left: 15%;  
-   text-align: center;
-}
-
-.nav-card{
+.nav-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     padding-top: 15%;
+    text-align: center;
 }
-
 
 .nav-card .card{
     background-color:linear-gradient(135deg,#bdc3c7, #ecf0f1);
@@ -52,7 +42,7 @@ li{
     box-sizing: border-box;
     transition: all 500ms ease;
     position: relative;
-
+    justify-self: center;    
 
 }
 
@@ -88,14 +78,7 @@ li{
 
 
 
-}
-
-.nav-card div+div{
-    margin-left: 10%;
-    
-}
-
-.nav-card img{
+.card img{
     max-width: 200px;
     padding-top: 10%;
 }
@@ -104,6 +87,8 @@ li{
 
 
 .show-case{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     background: linear-gradient(135deg,#bdc3c7, #ecf0f1);
     margin-top:8%;
     height: 60vh;
@@ -111,6 +96,11 @@ li{
 }
 
 
+.show-case span{
+
+    font-size: 2em;
+}
+
 .show-case p{
-    display: flex;
+    
 }
