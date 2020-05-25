@@ -1,7 +1,6 @@
 html, body {
     margin: 0;
     width: 100%;
-    overflow: hidden;
 }
 
 body{
@@ -10,7 +9,6 @@ body{
 }
 
 .showcase {
-    padding-top: 20vh;
     height: 60vh;
     width: 100%;
     min-width: 60%;
@@ -84,11 +82,11 @@ body{
 }
 
 .box:hover .content img {
-    top: -17vh;
+    top: -15vh;
 } 
 
 .box:hover {
-    transform: scale(0.96);
+    transform: scale(1.05);
 } 
 
 .box:hover .content h3 {
@@ -96,6 +94,10 @@ body{
 } 
 
 .box:hover .content p {
+    color: #f5f5f5;
+} 
+
+.box:hover .content li {
     color: #f5f5f5;
 } 
 
@@ -111,4 +113,29 @@ body{
     margin: 0;
     padding: 0;
     font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.box .content li {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    list-style: circle;
+}
+
+.title_sobre {
+    margin-top: 10vh;
+    margin-left: 400px;
+    float: left;
+    background: #4ab0a6 ;
+    color: #fff;
+    width: 15vw;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 7px 5px -5px #000;
+}
+
+.title_sobre h1 {
+    margin: 0;
 }
