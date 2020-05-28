@@ -70,7 +70,7 @@ body, h1, p{
     animation: bounce 1s;
     background: rgba(0,0,0,0);
     color: black;
-    box-shadow: inset 0 0 0 3px blueviolet;
+    box-shadow: inset 0 0 0 3px #25aae1;
     transform-origin: center bottom;
     transform:rotateX(-90deg) translateY(100%);
 
@@ -91,7 +91,7 @@ body, h1, p{
 .show-case{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background: linear-gradient(135deg,#bdc3c7, #ecf0f1);
+    background: linear-gradient(135deg,#25aae1, #ecf0f1);
     margin-top:8%;
     height: 60vh;
     box-shadow:  5px 5px 20px 10px rgba(44,44,44,0.30);
