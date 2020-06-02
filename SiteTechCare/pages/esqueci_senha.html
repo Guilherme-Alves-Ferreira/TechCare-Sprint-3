@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/Login.css ">
     <link rel="stylesheet" href="../css/Style.css">
+    <link rel="icon" href="../css/img/favicon.ico">
     <title>Esqueci minha senha</title>
 </head>
 
@@ -40,12 +41,13 @@
         </div>
     </div>
 
+<div class="Conteudo">
     <div id="div_esqueci" class="box2">
         <h1>Esqueci minha senha</h1>
         <input type="text" placeholder="Email"  id="mensagem" >
         <input onclick="enviar()" href="" type="submit" name="" value="Enviar">
     </div>
-
+</div>
 
     <div class="footer">
             <div class="container">
@@ -85,8 +87,6 @@
 
 <script>
     function enviar() {
-        alert('Enviado com sucesso!');
-    
 var tem_arroba = mensagem.value;
 var tem_ponto = mensagem.value; 
 
