@@ -42,7 +42,7 @@
 
     <div id="div_esqueci" class="box2">
         <h1>Esqueci minha senha</h1>
-        <input type="text" placeholder="Email">
+        <input type="text" placeholder="Email"  id="mensagem" >
         <input onclick="enviar()" href="" type="submit" name="" value="Enviar">
     </div>
 
@@ -86,5 +86,18 @@
 <script>
     function enviar() {
         alert('Enviado com sucesso!');
-    }
+    
+var tem_arroba = mensagem.value;
+var tem_ponto = mensagem.value; 
+
+tem_arroba = tem_arroba.indexOf('@') > 0;
+tem_ponto = tem_ponto.indexOf('.') > 0;
+
+if(tem_arroba && tem_ponto){
+    alert ('email valido');
+}else {
+    alert ('email invalido');
+}
+
+}
 </script>
