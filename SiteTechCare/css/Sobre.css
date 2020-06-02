@@ -39,7 +39,7 @@ body{
     align-items: center;
 }
 
-.card_box .box::before{
+.card_box .box::before {
     content: "";
     position: absolute;
     top: -2px;
