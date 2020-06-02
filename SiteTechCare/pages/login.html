@@ -47,8 +47,8 @@
             <h1>Login</h1>
             <input type="text" name="" placeholder="Email" id="mensagem">
             <input type="password" name="" placeholder="Senha" id="senha">
-            <input id="pagina" type="submit" name="" value="Login" onclick="login()"> 
-            <a href="esqueci_senha.html">Esqueci minha senha</a>
+            <input id="pagina" type="button" name="" value="Login" onclick="login()"> 
+            <a onclick="login()" href="esqueci_senha.html">Esqueci minha senha</a>
         </form>
     </div>
 </div>
@@ -102,12 +102,12 @@
         tem_ponto = tem_ponto.indexOf('.') > 0;
 
         if(tem_arroba && tem_ponto){
-            alert ('email valido');
-            window.location.href = "../index.html";
+            alert ('email invalido');
+            window.location.href = "http://www.devmedia.com.br";
+            
         }else {
             alert ('email invalido');
         }
 
       }
- 
 </script>
