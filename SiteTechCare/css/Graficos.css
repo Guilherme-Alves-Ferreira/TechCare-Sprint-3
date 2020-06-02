@@ -1,0 +1,141 @@
+body{
+    background: #000025;
+}
+canvas {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.corpo{
+    position: relative;
+}
+.container{
+    min-width: 1074px;
+}
+.cardContainer{
+    width: 100%;
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.cardContainer .card{
+    background: #000;
+    width: 18%;
+    min-height: 100px;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 3px 2px 5px #000;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 3px #000015;
+    display: grid;
+
+}
+.cardContainer .card.CS1{
+    background-image: linear-gradient(to right, #af0000, #be0c09, #cd1713, #dc201d, #eb2826, #f2312e, #f83937, #ff413f, #ff4b49, #ff5352, #ff5c5b, #ff6464);
+}
+.cardContainer .card.CS2{
+    background-image: linear-gradient(to right, #000096, #0509a9, #0913bc, #0a1dd0, #0926e4, #0041ef, #0056f8, #006aff, #0087ff, #009fff, #00b5ff, #00c8ff);
+}
+.cardContainer .card.CS3{
+    background-image: linear-gradient(to right, #006400, #007f00, #009b00, #00b800, #00d600, #26e401, #3af101, #4cff00, #64ff00, #77ff00, #87ff00, #96ff00);
+}
+.cardContainer .card.CS4{
+    background-image: linear-gradient(to right, #000025, #01012c, #010134, #00023b, #000242, #001455, #012369, #00327e, #0056a3, #007bc5, #00a1e3, #00c8ff);
+}
+.cardContainer .card.CS5{
+    background-image: linear-gradient(to right, #000025, #01012c, #010134, #00023b, #000242, #001455, #012369, #00327e, #0056a3, #007bc5, #00a1e3, #00c8ff);
+    margin-right: 0 ;
+}
+.cardContainer .card img{
+    width: 75px;
+    margin-top: 12.5px;
+    
+}
+.cardContainer .card .grid.item1{
+    min-width: 105px;
+    padding: 4px;
+    
+
+
+}
+.cardContainer .card .grid.item2{
+    grid-column: 2;
+  grid-row: 1 / span 2;
+  min-width: 80px;
+
+
+}
+.cardContainer .card .grid.item3{
+    font-size: 2rem;
+    text-align: center;
+
+}
+.graficoContainer{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.graficoContainer .grafico{
+    background: #fff;
+    border-radius: 3px;
+    
+}
+.graficoContainer .grafico.temperatura{
+
+    background: #010134;
+    width: 58%;
+
+}
+.graficoContainer .grafico.umidade{
+    width: 38%;
+}
+/* Chart.js */
+@keyframes chartjs-render-animation {
+    from {
+        opacity: .99
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.chartjs-render-monitor {
+    animation: chartjs-render-animation 1ms
+}
+
+.chartjs-size-monitor,
+.chartjs-size-monitor-expand,
+.chartjs-size-monitor-shrink {
+    position: absolute;
+    direction: ltr;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    pointer-events: none;
+    visibility: hidden;
+    z-index: -1
+}
+
+.chartjs-size-monitor-expand>div {
+    position: absolute;
+    width: 1000000px;
+    height: 1000000px;
+    left: 0;
+    top: 0
+}
+
+.chartjs-size-monitor-shrink>div {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    left: 0;
+    top: 0
+}
