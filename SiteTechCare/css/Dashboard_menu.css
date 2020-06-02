@@ -145,7 +145,7 @@ body{
   
   .content{
     margin-left: 250px;
-    background: url(../css/img/cardhome.png) no-repeat;
+    background: url(../css/img/.png) no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -159,4 +159,7 @@ body{
   #check{
     display: none;
   }
-                             
+
+  .active {
+    background: #1e272e;
+  }
