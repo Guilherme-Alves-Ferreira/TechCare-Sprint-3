@@ -150,3 +150,11 @@ body{
   .active {
     background: #1e272e;
   }
+
+  .content{
+    margin-left: 250px;
+    background: #1e272e;
+    background-position: center;
+    height: 100vh;
+    transition: 0.5s;
+  }
