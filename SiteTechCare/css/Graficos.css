@@ -26,7 +26,7 @@ canvas {
     min-height: 100px;
     color: #fff;
     font-weight: bold;
-    text-shadow: 3px 2px 5px #000;
+    text-shadow: 3px 2px 5px #000;   /*  Serve para colocar uma sombra no texto do card */
     border-radius: 3px;
     box-shadow: 2px 2px 5px 3px #000015;
     display: grid;
@@ -54,14 +54,14 @@ canvas {
     
 }
 .cardContainer .card .grid.item1{
-    min-width: 105px;
+    /* min-width: 105px; */
     padding: 4px;
     
 
 
 }
 .cardContainer .card .grid.item2{
-    grid-column: 2;
+  grid-column: 2;
   grid-row: 1 / span 2;
   min-width: 80px;
 
@@ -87,7 +87,7 @@ canvas {
 }
 .graficoContainer .grafico.temperatura{
 
-    background: #010134;
+    background:#010134;
     width: 58%;
 
 }
@@ -138,4 +138,47 @@ canvas {
     height: 200%;
     left: 0;
     top: 0
+}
+
+.card-info{
+    color: white;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 3px;
+    background: linear-gradient(200deg, #000096, #0509a9, #0926e4,#0926e4,#0926e4,#0926e4, #fff)
+    border-box;
+    cursor: pointer;
+    text-shadow: 3px 2px 5px #000015;
+}
+
+.card-info:hover{
+    box-shadow: 0 0 0 3px #fff;
+}
+
+
+.container-card-info{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   justify-items: center;
+   margin-top: 4%;
+   font-size: 1.20rem;
+   font-weight: bold;
+}
+
+.text-card{
+   padding-top: 5%;
+}
+
+.values-card{
+    /* text-shadow: 0px 0px 20px #000; */
+    font-weight: bolder;
+    font-size: 1.90rem;
+    padding-left: 40%;
+
+}
+
+.container-card-info .title-card{
+    padding-left: 40%;
+
 }

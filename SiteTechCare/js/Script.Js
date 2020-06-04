@@ -1,10 +1,9 @@
 function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "nav") {
-        x.className += " responsive";
-    } else {
-        x.className = "nav";
-    }
+  var x = document.getElementById("myTopnav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
 }
-const cards = document.querySelectorAll('.card');
-
+const cards = document.querySelectorAll(".card");
